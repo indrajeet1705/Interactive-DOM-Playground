@@ -1,0 +1,42 @@
+*{
+    margin :0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+ 
+}
+#div{
+
+    background-color: white;
+    align-items: center;
+}
+.Square{
+    display: flex;
+    background-color:white;
+    border: 2px black solid;
+    width:200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 1000;
+   
+}
+#upper2{
+    display: flex;
+}
+#lower2{
+    display: flex;
+}
